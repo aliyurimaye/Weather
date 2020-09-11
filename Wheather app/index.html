@@ -1,0 +1,69 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>wheather app</title>
+     <link rel="stylesheet" href="style/style.css">
+     <script src="https://kit.fontawesome.com/979c780f94.js" crossorigin="anonymous"></script>
+     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbaff">
+<meta name="msapplication-TileColor" content="#da63da">
+<meta name="theme-color" content="#f0f554">
+ </head>
+ <body>
+     <main>
+             <div id="header">
+                <h1 id="location-name">NewYork </h1>
+             </div>
+             <!--today's container-->
+             <div class="container">
+             <div id="today">
+                 <header class="date">today</header>
+                 <div id="icon-containaer">
+                     <img src="" alt="weather-icon" id="icon">
+                 </div>
+             </div>
+                 <div id="temp-value-container">
+                     <p id="weather-main"></p>
+                     <p id="description"></p>
+                 </div>
+                 <div id="main">
+                     <ul>
+                     <li id="feels_like"> <span> feels like: </span> </li>
+                     <li id="humidity"><span>humidity: </span> </li>
+                     <li id="pressure"><span>pressure: </span></li>
+                     <li id="temp"><span>temprature: </span></li>
+                    </ul>
+                 </div>
+                 </div>
+            
+
+             <!--search box-->
+             <div id="search-box-container">
+                 <input type="search" name="search" id="search-box" placeholder="  search weather location" >
+                <button id="submit"><span><i class="fas fa-search"></i> </span>Submit</button>
+             </div>
+
+             <!--one month container-->
+             <div>
+                  
+             </div>
+     </main>
+     <script src="script/main.js"></script>
+     
+     <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.20.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.20.0/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
+     </body>
+ </html>
